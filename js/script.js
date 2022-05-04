@@ -4,6 +4,8 @@ let body = document.querySelector(".body")
 let themeName = document.querySelector(".themeName")
 button.addEventListener("click", () => {
 
+    console.log("Witam Programistów. Właśnie testuję GIT w moim skrypcie.")
+
     body.classList.toggle("body2");
 
     if (body.classList.contains("body2")) {
