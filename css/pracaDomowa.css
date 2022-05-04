@@ -1,0 +1,143 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.calosc {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: "lato", sans-serif;
+    background-image: url("cssimage/background.jpg");
+    background-repeat: no-repeat;
+  
+    background-size: auto ;
+    
+}
+.body2 {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: "lato", sans-serif;
+    background-image: url("cssimage/background3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+.table {
+    font-family: "lato", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.table__header {
+    background-color: rgb(206, 33, 3);
+    color: #ddd;
+}
+
+.table__row:nth-child(even) {
+    background-color: #eee;
+}
+
+.table__row:nth-child(odd) {
+    background-color: rgb(173, 173, 173);
+}
+
+.table__row:hover {
+    background-color: #ddd
+}
+
+.table__row:active {
+    background-color: rgb(58, 58, 52);
+}
+
+.container {
+    text-align: center;
+}
+
+.fontColor {
+    color: rgb(19, 18, 18);
+    line-height: 25px;
+
+}
+
+.table__caption {
+    font-size: 1.5em;
+}
+
+.header {
+
+    color: rgb(255, 255, 255);
+    padding-bottom: 550px;
+    
+
+}
+.header__paragraph {
+    text-shadow: 4px 6px 3px #000000;
+}
+.m3 {
+    width: 350px;
+}
+
+.main {
+    background-color: rgba(201, 200, 200, 0.747);
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.main--important {
+    font-weight: bold;
+}
+
+.main--quote {
+    font-style: italic;
+}
+.about{
+    background-color: rgba(201, 200, 200, 0.747);
+    background-size: 100% 100%;
+    border-radius: 20px;
+    margin-top: 5px;
+
+}
+.about__coupe-cabrio{
+    padding-top: 10px;
+}
+.border {
+
+    border: 2px solid black;
+}
+
+
+.main__paragraph {
+    padding-top: 10px;
+}
+
+.ul {
+    text-align: center;
+	padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.li {
+    display: inline;
+	margin-right: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(201, 200, 200, 0.747);
+    color: black;
+    padding: 20px 50px;
+}
+.link {
+    text-decoration: none;
+}
+.link:visited {
+    color: black;
+}
