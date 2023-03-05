@@ -12,8 +12,8 @@ html {
     font-family: "lato", sans-serif;
     background-image: url("cssimage/background.jpg");
     background-repeat: no-repeat;
-  
-    background-size: auto ;
+    background-attachment: fixed;
+    background-size: cover;
     
 }
 .body2 {
@@ -23,7 +23,7 @@ html {
     background-image: url("cssimage/background3.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .table {
